@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+   
+  }
+  
+  input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
